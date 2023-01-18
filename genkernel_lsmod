@@ -1,0 +1,127 @@
+Module                  Size  Used by
+fuse                  155648  2
+ccm                    20480  9
+ntfs3                 253952  2
+vfat                   20480  1
+fat                    86016  1 vfat
+snd_hda_codec_hdmi     73728  1
+snd_hda_codec_realtek   163840  1
+snd_hda_codec_generic    98304  1 snd_hda_codec_realtek
+ledtrig_audio          16384  1 snd_hda_codec_generic
+snd_soc_skl           180224  0
+intel_rapl_msr         20480  0
+intel_rapl_common      28672  1 intel_rapl_msr
+snd_soc_hdac_hda       24576  1 snd_soc_skl
+intel_pmc_core_pltdrv    16384  0
+snd_hda_ext_core       36864  2 snd_soc_hdac_hda,snd_soc_skl
+intel_pmc_core         53248  0
+snd_soc_sst_ipc        20480  1 snd_soc_skl
+snd_soc_sst_dsp        36864  1 snd_soc_skl
+snd_soc_acpi_intel_match    57344  1 snd_soc_skl
+snd_soc_acpi           16384  2 snd_soc_acpi_intel_match,snd_soc_skl
+i915                 3072000  41
+snd_soc_core          348160  2 snd_soc_hdac_hda,snd_soc_skl
+snd_compress           28672  1 snd_soc_core
+snd_pcm_dmaengine      16384  1 snd_soc_core
+ac97_bus               16384  1 snd_soc_core
+iwlmvm                499712  0
+snd_hda_intel          57344  5
+nvidia_drm             65536  3
+snd_intel_dspcfg       28672  2 snd_hda_intel,snd_soc_skl
+nvidia_modeset       1105920  2 nvidia_drm
+snd_intel_sdw_acpi     20480  1 snd_intel_dspcfg
+x86_pkg_temp_thermal    20480  0
+intel_powerclamp       20480  0
+joydev                 28672  0
+mac80211             1187840  1 iwlmvm
+snd_hda_codec         176128  5 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec_realtek,snd_soc_hdac_hda
+i2c_algo_bit           16384  1 i915
+coretemp               20480  0
+nvidia              40267776  117 nvidia_modeset
+crct10dif_pclmul       16384  1
+libarc4                16384  1 mac80211
+uvcvideo              122880  0
+snd_hda_core          110592  8 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_ext_core,snd_hda_codec,snd_hda_codec_realtek,snd_soc_hdac_hda,snd_soc_skl
+ttm                    86016  1 i915
+btusb                  57344  0
+ghash_clmulni_intel    16384  0
+btrtl                  28672  1 btusb
+videobuf2_vmalloc      20480  1 uvcvideo
+iTCO_wdt               16384  0
+i2c_designware_platform    16384  0
+snd_hwdep              16384  1 snd_hda_codec
+videobuf2_memops       20480  1 videobuf2_vmalloc
+btbcm                  24576  1 btusb
+i2c_designware_core    36864  1 i2c_designware_platform
+iTCO_vendor_support    16384  1 iTCO_wdt
+rapl                   20480  0
+mei_hdcp               24576  0
+iwlwifi               376832  1 iwlmvm
+snd_pcm               143360  9 snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_compress,snd_soc_core,snd_soc_skl,snd_hda_core,snd_pcm_dmaengine
+drm_kms_helper        315392  2 nvidia_drm,i915
+videobuf2_v4l2         36864  1 uvcvideo
+btintel                45056  1 btusb
+intel_cstate           20480  0
+cec                    61440  2 drm_kms_helper,i915
+snd_timer              49152  1 snd_pcm
+videobuf2_common       69632  4 videobuf2_vmalloc,videobuf2_v4l2,uvcvideo,videobuf2_memops
+bluetooth             774144  5 btrtl,btintel,btbcm,btusb
+pcspkr                 16384  0
+intel_uncore          204800  0
+serio_raw              20480  0
+snd                   118784  19 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek,snd_timer,snd_compress,snd_soc_core,snd_pcm
+rc_core                65536  1 cec
+i2c_i801               32768  0
+ecdh_generic           16384  1 bluetooth
+efi_pstore             16384  0
+videodev              274432  3 videobuf2_v4l2,uvcvideo,videobuf2_common
+i2c_smbus              20480  1 i2c_i801
+cfg80211             1044480  3 iwlmvm,iwlwifi,mac80211
+soundcore              16384  1 snd
+intel_lpss_pci         28672  0
+mei_me                 45056  1
+intel_lpss             16384  1 intel_lpss_pci
+mc                     65536  4 videodev,videobuf2_v4l2,uvcvideo,videobuf2_common
+ecc                    40960  1 ecdh_generic
+intel_xhci_usb_role_switch    16384  0
+drm                   638976  20 drm_kms_helper,nvidia,nvidia_drm,i915,ttm
+roles                  16384  1 intel_xhci_usb_role_switch
+elan_i2c               53248  0
+idma64                 20480  0
+mfd_core               20480  1 intel_lpss
+mac_hid                16384  0
+mei                   155648  3 mei_hdcp,mei_me
+ideapad_laptop         28672  0
+sparse_keymap          16384  1 ideapad_laptop
+platform_profile       16384  1 ideapad_laptop
+intel_pch_thermal      20480  0
+i2c_core              106496  11 i2c_designware_platform,videodev,i2c_designware_core,drm_kms_helper,i2c_algo_bit,nvidia,elan_i2c,i2c_smbus,i2c_i801,i915,drm
+rfkill                 36864  6 bluetooth,ideapad_laptop,cfg80211
+intel_wmi_thunderbolt    20480  0
+wmi_bmof               16384  0
+video                  61440  2 ideapad_laptop,i915
+pinctrl_sunrisepoint    28672  0
+wmi                    36864  3 intel_wmi_thunderbolt,wmi_bmof,ideapad_laptop
+backlight              24576  6 video,drm_kms_helper,ideapad_laptop,i915,drm,nvidia_modeset
+pinctrl_intel          32768  1 pinctrl_sunrisepoint
+acpi_pad              184320  0
+efivarfs               16384  1
+ext4                  942080  2
+mbcache                16384  1 ext4
+jbd2                  167936  1 ext4
+crc32_pclmul           16384  0
+crc32c_intel           24576  3
+sd_mod                 61440  7
+t10_pi                 16384  1 sd_mod
+r8169                  98304  0
+aesni_intel           380928  6
+xhci_pci               20480  0
+xhci_pci_renesas       20480  1 xhci_pci
+realtek                36864  1
+crypto_simd            16384  1 aesni_intel
+mdio_devres            16384  1 r8169
+cryptd                 28672  2 crypto_simd,ghash_clmulni_intel
+xhci_hcd              331776  1 xhci_pci
+libphy                163840  3 r8169,mdio_devres,realtek
+ahci                   45056  6
+libahci                45056  1 ahci
