@@ -11,7 +11,7 @@ This is a built-in configuration capable of running an average laptop with almos
  - `genkernel_dmesg`               - kernel log from generic kernel configured with `genkernel`
  - `genkernel_lsmod`               - module list from generic kernel configured with `genkernel`
  - `ideapad320_15ikb_defconfig`    - configuration of `gentoo-sources-5.15.80` kernel
- - `ideapad320_15ikb_zen_defconfig`- configuration of `zen-sources-6.0.12` kernel (same as `gentoo` but with native optimization)
+ - `ideapad320_15ikb_zen_defconfig`- configuration of `zen-sources-6.2.13` kernel (same as `gentoo` but with native optimization)
 
 ### Usage
 ```
