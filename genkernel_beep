@@ -1,0 +1,8 @@
+beep: Verbose: evdev driver_detect 0x562ba36a4840 (nil)
+beep: Verbose: b-lib: opened /dev/input/by-path/platform-pcspkr-event-spkr as 3
+beep: Verbose: beep: using driver 0x562ba36a4840 (name=evdev, fd=3, dev=/dev/input/by-path/platform-pcspkr-event-spkr)
+beep: Verbose: 1 times 1 ms beeps (100 ms delay between, 0 ms delay after) @ 440 Hz
+beep: Verbose: evdev driver_begin_tone 0x562ba36a4840 440
+beep: Verbose: evdev driver_end_tone 0x562ba36a4840
+beep: Verbose: evdev driver_end_tone 0x562ba36a4840
+beep: Verbose: evdev driver_fini 0x562ba36a4840
