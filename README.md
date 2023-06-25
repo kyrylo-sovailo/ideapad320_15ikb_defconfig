@@ -23,6 +23,7 @@ root # make -j$(nproc) && make install
 ```
 
 ### Useful links
+ - [Xorg](https://wiki.gentoo.org/wiki/Xorg/Guide)
  - [Intel Dual Band network controller](https://wiki.gentoo.org/wiki/Iwlwifi)
  - [NVIDIA discrete graphics](https://wiki.gentoo.org/wiki/NVIDIA/nvidia-drivers)
  - [Intel integrated graphics](https://wiki.gentoo.org/wiki/Intel)
