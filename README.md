@@ -33,6 +33,7 @@ root # make -j$(nproc) && make install
  - [elogind](https://wiki.gentoo.org/wiki/Elogind)
  - [PPP](https://wiki.gentoo.org/wiki/PPP)
  - [CryFS](https://packages.gentoo.org/packages/sys-fs/cryfs) (requires CONFIG_FUSE_FS)
+ - [Cryptsetup](https://packages.gentoo.org/packages/sys-fs/cryptsetup) (requires CONFIG_DM_CRYPT)
  - [AVR](https://wiki.gentoo.org/wiki/Arduino)
  - [Lenovo Ideapad 315-ARE05 configuration](https://wiki.gentoo.org/wiki/Lenovo_Ideapad_3_15ARE05_(Ryzen))
  - [Lenovo Ideapad B570e configuration](https://wiki.gentoo.org/wiki/Lenovo_IdeaPad_B570e)
